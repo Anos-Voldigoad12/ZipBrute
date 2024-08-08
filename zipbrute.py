@@ -13,6 +13,7 @@ def check_password(zip_ref, password):
 
 if len(sys.argv)!=3:
     print("Usage: zipbrute.py <zip> <wordlist>")
+    sys.exit()
 try:
     zip_ref = zipfile.ZipFile(sys.argv[1],'r')
     with open(sys.argv[2],'r') as passwords:
