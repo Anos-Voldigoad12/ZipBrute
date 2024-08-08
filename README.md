@@ -5,14 +5,6 @@ A CLI tool to bruteforce a zip file with a wordlist
 ```Shell
 python3 zipbrute.py <zip file> <wordlist>
 ```
-## Example
-```Shell
-$python3 zipbrute.py flag.zip dict
-Skipping:  tes
-Skipping:  Tes
-Skipping:  Test
+## Example Output
 
-Found the Correct Password:  test
-
-$
-```
+![sampleUsage](https://github.com/user-attachments/assets/7be48cf4-58ad-4ff6-a6d7-a709d06e7088)
